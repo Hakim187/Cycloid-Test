@@ -82,7 +82,7 @@ When i tried to deploy infrastructure, i faced errors related to my deployment p
 Also When i tried to deploy my infrastructure, i faced errors related to a Amazon regional issue, which was eu-west-2, i had to change the region to us-east-1
 to resolve this error, which is related to Amazon policies
 
-For my nsible configuration, i faced errors related to Nginx and php deployment that were related to the docker not finding their packages when installing, 
+For my ansible configuration, i faced errors related to Nginx and php deployment that were related to the docker not finding their packages when installing, 
 so i added common role in ansible, to put my .repo files in the /etc/yum.repo.d/ and then install my components,
 
 
