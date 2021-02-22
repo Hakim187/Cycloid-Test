@@ -70,7 +70,7 @@ every component is defined in an ansible role, with a common role file, for the 
 
 How I run my project:
 
-After launching my packer command : packer buils aws_wordpress.json    the ECS service that was deployed via terraform will pick the latest image from ECR and run
+After launching my packer command : packer build aws_wordpress.json    the ECS service that was deployed via terraform will pick the latest image from ECR and run
 the container, which i can display from my AWS ECR account, the wordpress app is using Nginx and php-fpm service, and the mariaDB as database, which is
 running externally in AWS
 
