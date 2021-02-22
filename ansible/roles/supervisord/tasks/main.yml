@@ -1,0 +1,15 @@
+---
+#This task is used to install the supervisor daemon
+- name: Install python
+  yum:
+    name: python-meld3
+    state: latest
+
+- name: Install supervisor daemon
+  yum:
+    name: supervisor
+    state: present
+- name: Copy supervisord config file
+  template:
+    src: supervisord.conf
+    dest: /etc/
