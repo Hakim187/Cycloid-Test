@@ -61,10 +61,10 @@ variable "db_name" {
 
 variable "db_username" {
   description = "The DB username"
-  default     = "hakim"
+  default     = ""
 }
 
 variable "db_password" {
   description = "The DB password"
-  default     = "Compton187"
+  default     = ""
 }
