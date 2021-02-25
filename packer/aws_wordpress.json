@@ -1,8 +1,8 @@
 {
   "variables": {
     "playbook_dir": "../ansible/playbook.yml",
-    "aws_access_key": "AKIAXMTXYIAWCGGXGMXY",
-    "aws_secret_key": "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",
+    "aws_access_key": "",
+    "aws_secret_key": "",
     "aws_ecr_repository": "508131033132.dkr.ecr.us-east-1.amazonaws.com/wordpress-directory",
     "aws_ecr_image_tag": "wordpress"
   },
